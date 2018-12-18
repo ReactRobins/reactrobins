@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         name: 'Code of Conduct',
-        link: '/',
+        link: '/code',
       },
     ],
   },

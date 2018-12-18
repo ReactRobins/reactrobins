@@ -87,3 +87,16 @@
   padding: 1px 0px 0px 5px;
   margin: 2px;
 }
+
+.conductContainer {
+  background-color: #af9c48;
+  box-shadow: -1px 7px 15px 4px grey;
+  height: 1000px;
+  margin: 50px;
+  margin-top: 100px;
+}
+
+.conductContainer h1 {
+  text-align: center;
+  padding-top: 40px;
+}
