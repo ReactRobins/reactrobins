@@ -1,0 +1,7 @@
+body,
+html {
+  margin: 0px;
+  font-family: monospace;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
