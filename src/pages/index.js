@@ -11,12 +11,12 @@ const IndexPage = () => (
     <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
     <div className={styles.section1}>
       <img className={styles.logo} src={logo} alt="Logo" />
-      <h1 style={{ fontFamily: 'monospace' }}>React.js workshops</h1>
-      <hr />
-      <p style={{ fontSize: '20px' }}>
-        React Robins aims to create a diverse and inclusive environment for
-        minorities in tech to learn react.
+      <h1 className={styles.title}>ReactRobins</h1>
+      <p className={styles.subtitle} style={{ fontSize: '20px' }}>
+        React Robins aims to create a diverse and inclusive environment for gender
+        minorities in tech to learn React.js.
       </p>
+      <a href="http://google.com" className={styles.tutorialLink}>Tutorial</a>
     </div>
     <div className={styles.section2}>
       <div className={styles.inner}>

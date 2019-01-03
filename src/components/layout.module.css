@@ -1,14 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Princess+Sofia|Roboto+Mono|Work+Sans");
+
+.title {
+  font-size: 100px;
+  font-family: 'Princess Sofia', cursive;
+  color: #795c5f;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+
+.logo {
+  margin-left: 15px;
+  font-family: 'Princess Sofia', cursive;
+  float: left;
+  color: #d1a7a0;
+}
+
+.tutorialLink {
+  padding: 15px;
+  background-color: #795c5f;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  border: none;
+  box-shadow: 0px 2px 3px 0px #6d6a6a61;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.navbarLinks {
+  float: right;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 10px;
+  color: #d1a7a0;
+}
+
 .navContainer {
-  box-shadow: 0px 3px 6px 0px #29282861;
+  box-shadow: 0px 2px 3px 0px #6d6a6a61;
   list-style-type: none;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #795c5f;
   position: fixed;
   top: 0;
   width: 100%;
-  font-family: 'monospace';
+  font-family: 'Work Sans', sans-serif;
   margin: 0;
+}
+
+.subtitle {
+  width: 40vw;
+  padding-bottom: 15px;
 }
 
 .section1 {
@@ -16,6 +57,12 @@
   background-color: #d1a7a0;
   color: 'white';
   text-align: center;
+  height: 85vh;
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .section2 {
@@ -25,6 +72,7 @@
   color: 'white';
   display: grid;
   grid: 100% / auto auto auto;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .section2 .inner {
