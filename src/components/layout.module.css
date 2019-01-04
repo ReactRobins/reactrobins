@@ -16,15 +16,47 @@
 }
 
 .tutorialLink {
-  padding: 15px;
+  /* padding: 15px; */
   background-color: #795c5f;
   color: white;
+  font-family: 'Work Sans', sans-serif;
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
-  border: none;
+  letter-spacing:1px;
+  outline:none;
+  box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   box-shadow: 0px 2px 3px 0px #6d6a6a61;
-  border-radius: 10px;
   text-decoration: none;
+  text-align: center;
+  position: relative;
+  border:solid 7px #a26769;
+  align-self:center;
+  padding:1rem 1rem;
+  margin:0 1rem;
+  transition:all .5s ease;
+}
+
+.tutorialLink:hover {
+  border-radius: 10px;
+}
+
+.scrollButton {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.scrollButton:hover {
+  opacity: 0.5;
 }
 
 .navbarLinks {
