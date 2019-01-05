@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -9,10 +8,10 @@ const CodeOfConduct = () => (
   <Layout>
     <SEO
       title="Code of Conduct"
-      keywords={['gatsby', 'application', 'react']}
+      keywords={['gatsby', 'application', 'react', 'code', 'conduct']}
     />
-    <div className={styles.conductContainer}>
-      <h1>Code of Conduct</h1>
+    <div className={styles.page}>
+      <h1 className={styles.header}>Code of Conduct</h1>
     </div>
   </Layout>
 )
