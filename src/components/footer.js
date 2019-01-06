@@ -17,7 +17,7 @@ const Footer = ({ siteTitle, menuLinks }) => (
           <div className={styles.listBackground}>
             <li key={link.name}>
               <Link
-                style={{ textDecoration: 'none', color: 'white' }}
+                style={{ textDecoration: 'none', color: '#684756' }}
                 to={link.link}
               >
                 {link.name}
@@ -30,7 +30,7 @@ const Footer = ({ siteTitle, menuLinks }) => (
         <ul
           style={{
             listStyleType: 'none',
-            color: 'white',
+            color: '#684756',
             fontSize: '18px',
             float: 'right',
             marginRight: '20px',
@@ -57,6 +57,7 @@ const Footer = ({ siteTitle, menuLinks }) => (
         height: '30px',
         paddingTop: '10px',
         fontSize: '15px',
+        backgroundColor: '#efa973',
       }}
     >
       Made with <FontAwesomeIcon style={{ color: 'red' }} icon="heart" /> by

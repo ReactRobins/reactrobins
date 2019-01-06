@@ -17,7 +17,7 @@ const Logo = () => (
   <StaticQuery
     query={graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "react-robins.png" }) {
+        placeholderImage: file(relativePath: { eq: "robin.png" }) {
           childImageSharp {
             fluid(maxWidth: 300) {
               ...GatsbyImageSharpFluid
