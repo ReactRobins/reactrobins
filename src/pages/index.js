@@ -4,7 +4,6 @@ import Layout from '../components/layout'
 import logo from '../images/robin.png'
 import styles from '../components/layout.module.css'
 import SEO from '../components/seo'
-import SnowStorm from 'react-snowstorm'
 
 const IndexPage = () => (
   <Layout>
@@ -12,8 +11,7 @@ const IndexPage = () => (
       title="Home"
       keywords={['gatsby', 'application', 'react', 'robins', 'coding', 'girls']}
     />
-    <div className={styles.section1}>
-      <SnowStorm animationInterval={50} snowStick={false} followMouse={false} />
+    <div className={styles.section1} id="section1">
       <img className={styles.logo} src={logo} alt="Logo" />
       <h1 className={styles.title}>ReactRobins</h1>
       <p className={styles.subtitle} style={{ fontSize: '20px' }}>

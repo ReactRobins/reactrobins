@@ -23,8 +23,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0",
-    "react-snowstorm": "0.0.3"
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
     "gatsby"
@@ -39,6 +38,7 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "prettier": "^1.15.2"
   },
   "repository": {
