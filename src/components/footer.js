@@ -12,43 +12,38 @@ library.add(fab, faEnvelope, faHeart)
 const Footer = ({ siteTitle, menuLinks }) => (
   <>
     <div className={styles.footer}>
-      <ul style={{ listStyleType: 'none' }}>
+      <div className={styles.pageLinks}>
         {menuLinks.map(link => (
           <div className={styles.listBackground}>
-            <li key={link.name}>
+            <p key={link.name}>
               <Link
                 style={{ textDecoration: 'none', color: '#684756' }}
                 to={link.link}
               >
                 {link.name}
               </Link>
-            </li>
+            </p>
           </div>
         ))}
-      </ul>
-      <div>
-        <ul
-          style={{
-            listStyleType: 'none',
-            color: '#684756',
-            fontSize: '18px',
-            float: 'right',
-            marginRight: '20px',
-          }}
-        >
-          <li>
+      </div>
+      <div className={styles.contactUs}>
+        <div className={styles.contact}>
+          Contact Us:
+        </div>
+        <div className={styles.contactLinks}>
+          <div>
             <FontAwesomeIcon icon={['fab', 'twitter']} />
             <span className={styles.icontext}>@ReactRobins</span>
-          </li>
-          <li>
+          </div>
+          <div>
             <FontAwesomeIcon icon={['fab', 'medium']} />
             <span className={styles.icontext}>/ReactRobins</span>
-          </li>
-          <li>
+          </div>
+          <div>
             <FontAwesomeIcon icon="envelope" />
             <span className={styles.icontext}>reactrobins@gmail.com</span>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
     </div>
     <div
