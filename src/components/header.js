@@ -56,14 +56,25 @@ var navStyles = {
 }
 
 const Header = ({ siteTitle, menuLinks }) => (
-  <Menu styles={ navStyles }>
-    <Link to="/">
-      <h2 className={styles.logo}>{'< ReactRobins \\' + '>'}</h2>
-    </Link>
-    {menuLinks.map(link => (
-      <Link to={link.link} key={link.name}>{link.name}</Link>
-    ))}
-  </Menu>
+  <div>
+    <div className={styles.navContainer}>
+      <div className={styles.navbarLinks}>
+        {menuLinks.map(link => (
+          <li className={styles.list} key={link.name}>
+            <Link to={link.link}>{link.name}</Link>
+          </li>
+        ))}
+      </div>
+    </div>
+    <Menu styles={ navStyles }>
+      <Link to="/">
+        <h2 className={styles.logo}>{'< ReactRobins \\' + '>'}</h2>
+      </Link>
+      {menuLinks.map(link => (
+        <Link to={link.link} key={link.name}>{link.name}</Link>
+      ))}
+    </Menu>
+  </div>
 )
 
 Header.propTypes = {
