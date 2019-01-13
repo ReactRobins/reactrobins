@@ -32,6 +32,10 @@
   align-self: center;
 }
 
+.header {
+  text-align: center;
+}
+
 .content {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
@@ -136,9 +140,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .navContainer {
-      visibility: hidden;
-    }
+  .navContainer {
+    visibility: hidden;
+  }
 }
 
 .subtitle {
@@ -157,7 +161,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
 }
 
 .section2 {
@@ -191,6 +194,10 @@
   position: relative;
   background-color: #795c5f;
   padding-bottom: 100px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section2 p {
@@ -227,6 +234,7 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 20px;
+  width: 60%;
 }
 
 .list {

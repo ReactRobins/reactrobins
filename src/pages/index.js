@@ -23,7 +23,9 @@ const IndexPage = () => (
       </a>
     </div>
     <div className={styles.upcoming}>
-      <h1 className={styles.header} style={{fontSize: '4em'}}>Upcoming Events</h1>
+      <h1 className={styles.header} style={{ fontSize: '4em' }}>
+        Upcoming Events
+      </h1>
       <div className={styles.upcomingEvents}>
         No upcoming events just yet!{' '}
         <span role="img" aria-label="sunflower">
