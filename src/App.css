@@ -9,8 +9,24 @@
   grid-template-rows: 20% 20% 20% 20% 20%;
   min-height: 100vh;
   min-width: 100vw;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   border: none;
+}
+
+.tutorial {
+  font-size: calc(2.5vw + 1em);
+}
+
+.banner {
+  z-index: 1;
+  position: absolute;
+  background-color: red;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transform: rotate(-20deg) translate(-5%, -80%);
 }
 
 .title1 {
@@ -241,6 +257,9 @@
   grid-row-start: 5;
   grid-row-end: 5;
   background-color: #a26769;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box18 {
@@ -292,6 +311,10 @@
     align-self: center;
   }
 
+  .box2 {
+    display: none;
+  }
+
   .box4 {
     display: none;
   }
@@ -327,11 +350,6 @@
   .box9 {
     display: none;
   }
-
-  .box17 {
-    display: none;
-  }
-
   .box19 {
     display: none;
   }
@@ -348,12 +366,17 @@
     display: none;
   }
 
-  .box2 {
+  .box17 {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 5;
     background-color: #a26769;
+  }
+
+  .banner {
+    font-size: 10px;
+    transform: rotate(-20deg) translate(5%, -30%);
   }
 
   .title1 {

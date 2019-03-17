@@ -42,7 +42,12 @@ class App extends Component {
         <div className="box14" />
         <div className="box15" />
         <div className="box16" />
-        <div className="box17" />
+        <div className="box17">
+          <p className="banner">COMING SOON!</p>
+          <Link className="link tutorial" to="">
+            Tutorial >
+          </Link>
+        </div>
         <div className="box18" />
         <div className="box19" />
         <div className="box20">Based in London, UK</div>
