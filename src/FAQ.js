@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import "./FAQ.css";
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import './FAQ.css'
 
 class FAQ extends Component {
   render() {
@@ -9,7 +9,7 @@ class FAQ extends Component {
         <div className="title">FAQ</div>
         <div className="left-top">
           <Link className="link" to="/">
-            {"<"}
+            {'<'}
           </Link>
         </div>
         <div className="right-top" />
@@ -35,8 +35,13 @@ class FAQ extends Component {
             <li>How can I register for a ReactRobins event?</li>
             Any upcoming ReactRobins events will be put on our site as soon as
             they are confirmed. Anybody who is on the mailing list will receive
-            an email updating them about upcoming events. Sign up to our mailing
-            list here.
+            an email updating them about upcoming events. Sign up to our{' '}
+            <a
+              href="https://reactrobins.typeform.com/to/y8lxaf"
+              target="_blank"
+            >
+              mailing list.
+            </a>
             <li>I want to coach or sponsor an event</li>
             That's awesome! Just reach out to the organisers at
             reactrobins@gmail.com with the event you would like to sponsor/coach
@@ -50,17 +55,25 @@ class FAQ extends Component {
             industry, this includes, but is not limited to people who are
             members of a gender or racial minority.
             <li>When is the tutorial going to be released?</li>
-            We are working hard to release the tutorial by the end of April.
+            We are working hard to release the tutorial in the next couple of
+            months. We will update anybody who signed up to our{' '}
+            <a
+              href="https://reactrobins.typeform.com/to/y8lxaf"
+              target="_blank"
+            >
+              mailing list
+            </a>{' '}
+            when it is available!
             <li>When will the next ReactRobins event happen?</li>
-            ReactRobins events will run every 3 months, with the first event
-            being held in June.
+            ReactRobins events will run every 3 to 4 months, with the first
+            event being held in the next couple of months.
           </ul>
         </div>
         <div className="left-bottom" />
         <div className="right-bottom" />
       </div>
-    );
+    )
   }
 }
 
-export default FAQ;
+export default FAQ
